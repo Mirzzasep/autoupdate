@@ -1298,7 +1298,7 @@ const fs = require("fs");
 bot.onText(/\/update/, async (msg) => {
     const chatId = msg.chat.id;
 
-    const repoRaw = "https://raw.githubusercontent.com/NAMA-AKUN/NAMA-REPO/main/index.js";
+    const repoRaw = "https://raw.githubusercontent.com/Mirzzasep/autoupdate/main/index.js";
 
     bot.sendMessage(chatId, "⏳ Sedang mengecek update...");
 
